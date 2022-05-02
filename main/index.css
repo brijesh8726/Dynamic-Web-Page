@@ -1,0 +1,888 @@
+/* Margin,padding & box sizing for entire webpage */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+/* Background image properties */
+.bg-img {
+
+    background-image:
+    linear-gradient(45deg, rgba(82, 70, 245, 0.62), rgba(41, 170, 52, 0.58)), url('bg.jpg');
+    background-size: 100%;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+
+}
+/* Backround color properties */
+.bg-color {
+
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+
+}
+/* Header div shadow property */
+.header {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+/* anchor tag properties */
+a {
+
+    text-decoration: none;
+    color: white;
+
+
+}
+#top-head{
+    width: 100vw;
+    
+}
+#top-head ul{
+    list-style-type: none;
+}
+/* Navigation div proverties */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+/* UL properties */
+.ul {
+    display: flex;
+    align-items: center;
+}
+/* li properties for li inside ul which is inside nav */
+nav ul li {
+    padding: 0px 10px;
+    list-style-type: none;
+
+}
+/* Menu bar div properties */
+.menu-bar {
+    display: flex;
+}
+
+.menu-bar2 {
+    display: none;
+    
+}
+/* Bar properties which will be dispalyed only in small devices instead of menubar  */
+.bar {
+    color: white;
+    position: absolute;
+    right: 1rem;
+}
+/* Download button Properties */
+.btn {
+    margin: 10px;
+    background-color: rgb(74, 115, 226);
+    color: white;
+    height: 35px;
+    width: 100px;
+
+    border: 0px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+}
+/* Logo properties */
+.logo {
+
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 800;
+
+}
+/* Text div properties of first page */
+.text {
+
+    width: 625px;
+    justify-content: center;
+    color: white;
+
+    padding-left: 250px;
+    padding-top: 200px;
+}
+/* View demo button properties */
+.btn-1 {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+
+
+}
+/* Learn more button properties */
+.btn-2 {
+    width: 100px;
+    height: 30px;
+    background-color: #dddddd00;
+    border: 1px solid white;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+/* Container 2 properties */
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: small;
+
+}
+/* Common properties for all divs in container 2 */
+.boxn {
+    width: 25%;
+    padding: 30px;
+
+    text-align: center;
+    justify-content: center;
+
+}
+ 
+/* Different background color for div 1,2,3,4 of container 2 */
+.box1 {
+    background-color: rgb(136, 75, 222);
+}
+
+.box2 {
+    background-color: rgb(204, 81, 248);
+}
+
+.box3 {
+    background-color: rgb(79, 176, 139);
+}
+
+.box4 {
+    background-color: rgb(49, 185, 213);
+}
+/* Container 3 properties */
+.container3 {
+
+    background-color: rgb(225, 237, 247);
+    text-align: center;
+
+    padding: 75px 150px 75px 150px;
+    font-size: medium;
+
+
+}
+/* Description div properties */
+.description {
+    display: inline-block;
+
+    width: 15vw;
+    background-color: rgb(225, 237, 247);
+
+    padding: 5px;
+    font-size: small;
+
+
+}
+/* Property for container 3 paragraph tag */
+.container3 p {
+    color: rgb(78, 78, 78);
+}
+/* Icon colors of container 3 */
+.icon-col1 {
+    color: rgb(255, 196, 0);
+}
+
+.icon-col2 {
+    color: rgb(122, 253, 247);
+}
+
+.icon-col3 {
+    color: rgb(247, 104, 104);
+}
+
+/* Container 4 properties */
+.container4 {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+/* Container 4 text properties */
+.container4-text {
+    text-align: center;
+    justify-content: center;
+    width: 70vw;
+    padding: 3%;
+
+}
+/* First section of container 4 */
+.project-list1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+
+}
+/* Second section of container 4 */
+.project-list2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 70vw;
+
+}
+/* List div of first section */
+.list1 {
+
+    width: 55vw;
+}
+/* List div of second section */
+.list2 {
+
+    width: 55vw;
+}
+/* Image div if first section */
+.img1 {
+
+
+    width: 45vw;
+
+
+
+}
+/* Image div if second section */
+.img2 {
+    margin: auto;
+
+    width: 45vw;
+    float: right;
+
+
+}
+/* FLoat right for second image in container 4 to align it to right */
+.image2 {
+
+    float: right;
+}
+
+
+
+
+/* Common properties for both images in container 4 */
+.project-img {
+    width: 80%;
+    border-radius: 2%;
+    box-shadow: 2px 2px 5px 5px rgb(184, 197, 201);
+
+}
+/* Li properties for all li tag */
+.li {
+    padding: 2%;
+    font-size: small;
+    display: flex;
+
+}
+/* Icon div, common properties for all divs containing icon in list of container 4 */
+.icon-div {
+    padding: 2%;
+
+}
+/* Icon text, common properties for all divs containing text in list of container 4 */
+.icon-text {
+    padding: 2%;
+
+}
+/* Color properties for icons in container 4 */
+.cyan-text {
+    color: rgb(67, 191, 212);
+}
+
+.pink-text {
+    color: rgb(245, 101, 125);
+}
+
+.indigo-text {
+    color: rgb(87, 33, 126);
+}
+
+/* Paragrap property inside container 4 */
+.container4 p {
+    color: rgb(78, 78, 78);
+
+}
+/* Container 5 properties */
+.container5 {
+    background-color: #3949ab;
+    height: 95vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+/* Container 5 text properties */
+.container5-text {
+    width: 70vw;
+
+}
+ /* properties for parent div in cotainer 5 */
+.container5-divs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 70vw;
+    margin-top: 2rem;
+}
+/* Common properties for all divs in container 5 */
+.div5 {
+    height: 60vh;
+    width: 500px;
+    margin-left: 2rem;
+
+    background-size: cover;
+    border-radius: 5px;
+
+}
+/* Background color and image properties for different divs in container 5 */
+.container5-div1 {
+    background-image:
+        linear-gradient(45deg, rgba(32, 34, 32, 0.62), rgba(32, 34, 32, 0.62)), url('architecture.jpg');
+}
+
+.container5-div2 {
+    background-image:
+        linear-gradient(45deg, rgba(33, 216, 161, 0.62), rgba(33, 216, 161, 0.62)), url('architecture.jpg');
+}
+
+.container5-div3 {
+    background-image:
+        linear-gradient(45deg, rgba(187, 53, 13, 0.62), rgba(241, 114, 75, 0.62)), url('architecture.jpg');
+}
+
+/* Common property for bakground image of divs in container 5 */
+.architecture-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+}
+/* Text properties in divs of container 5 */
+.p1 {
+    font-size: 1rem;
+    padding: 15%;
+    font-weight: bold;
+
+
+}
+
+.p2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 8%;
+}
+
+.p3 {
+    font-weight: normal;
+    font-size: normal;
+    line-height: 150%;
+
+}
+/* Container 5 button properties */
+.container5-btn {
+    width: 100px;
+    height: 30px;
+    background-color: #dddddd00;
+    border: 1px solid white;
+    color: white;
+
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+/* Container 6 properties */
+.container6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Container 6 text properties */
+.container6-text {
+    width: 70vw;
+    text-align: center;
+    margin: 5%;
+}
+ /* Parent div of container 6 divs */
+.container6-divs {
+    width: auto;
+    height: auto;
+}
+/* Dispaly property for div6-a, div6-b and div 6 in container 6 */
+.div6-a
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2%; 
+}
+
+.div6 {
+    display: flex;
+   
+    justify-content: center;
+   
+    padding: 2%;
+}
+
+/* Div 6 text properties */
+.div6-text {
+    width: 18vw;
+    margin: 0% 5% 0% 5%;
+
+}
+
+/* Icon color properties for all icons in container 6 */
+.blue-icon {
+    color: rgb(61, 155, 199);
+}
+/* properties for h5 tag in div6-text */
+.div6-text h5 {
+    color: #343c83;
+}
+/* properties for p tag in div6-text */
+.div6-text p {
+    color: rgb(110, 109, 109);
+}
+/* Common properties of image in container 6 */
+.img6 {
+    border-radius: 2%;
+    width: 100%;
+}
+
+/* Container 7 properties */
+.container7 {
+    background-image:
+        linear-gradient(45deg, rgba(3, 3, 3, 0.62), rgba(0, 0, 0, 0.58)), url('bg.jpg');
+    background-size: 100%;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+/* Container 7 text properties */
+.container7-text {
+    width: 70vw;
+    color: white;
+    text-align: center;
+    margin: 5%;
+
+}
+ /* Form container properties */
+.form-container {
+    background-color: rgb(255, 250, 250);
+    width: 70vw;
+    height: auto;
+    border-radius: 1%;
+    padding: 4%;
+    display: flex;
+
+}
+ 
+/* Div 1 of form container ehich contains form */
+.form-div1 {
+    width: 70vw;
+
+}
+/* Div 2 of form container ehich contains contact info */
+.form-div2 {
+    width: 30vw;
+
+    text-align: center;
+}
+
+/* input & textarea properties */
+input,
+textarea {
+    width: 90%;
+    border: 0px;
+    border-bottom: 2px solid rgb(136, 132, 132);
+    margin: 2%;
+
+}
+/* Label property for aligning two label in one line for first line */
+.label input {
+    width: 43%;
+}
+/* Contact us button properties */
+.contact-btn {
+    background-color: #4c62f5;
+    width: 80px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    margin-left: 10px;
+    box-shadow: 2px 2px 5px 5px rgb(184, 197, 201);
+    border: 10%;
+    cursor: pointer;
+}
+/* Footer 1 properties */
+.footer1 {
+    background-color: #4d00a5;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+/* Footer 2 properties */
+.footer2 {
+    background-color: rgba(28, 0, 94, 0.959);
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: small;
+    width: 100%;
+
+}
+/*  For Icons as link in footer 1 */
+.footer1 a {
+    cursor: pointer;
+}
+
+/* Properties for making ou page responsive in Tablet Mode below 768px */
+@media only screen and (max-width: 768px) {
+    #top-head{
+        padding: 8px;
+    }
+/* For aligning boxes of container 2 two in a row */
+    .boxn {
+        width: 50%;
+    }
+
+   
+/* For hiding menu bar */
+    .menu-bar {
+        display: none;
+      
+    }
+    /* Diaplay property of menu bar 2 */
+    .menu-bar2{
+        display: none;
+        flex-direction: column;
+        margin: 10px;
+       
+       
+    }
+    /* Will be active when clicked on nav bar button */
+    .active{
+        display:flex;
+    
+     
+    }
+    .ul{
+        display: block;
+    }
+/* For Displaying navigation  bar icon */
+    .bar {
+
+        position: absolute;
+        right: 1rem;
+        top: 0.5rem;
+    }
+/* For adjusting text box of main page at center */
+    .text {
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+/* For displaying Logo  position according to screen */
+    .logo {
+        position: absolute;
+        left: 1rem;
+    }
+ /* changes in Container 3 properties in tablet mode */
+    .container3 {
+        padding: 25px 60px 25px 60px;
+        font-size: medium;
+
+    }
+/* Changes in description div in tablet mode  */
+    .description {
+        padding: 2px;
+        width: 25vw;
+    }
+
+/* Changes in div of project list 1 for displaying div in column in tablet mode  */
+    .project-list1 {
+        flex-direction: column;
+        width: 100vw;
+
+    }
+/* Changes in div of project list 2 for displaying div in column in tablet mode  */
+    .project-list2 {
+        flex-direction: column;
+        width: 100vw;
+    }
+/* Chnages in image properties of project div(container 4) */
+    .img1 {
+        width: 100%;
+
+    }
+
+    .img2 {
+        width: 100%;
+
+
+
+    }
+
+    .project-img {
+        width: 90%;
+
+        margin-left: 5%;
+
+    }
+
+    .image2 {
+        float: none;
+    }
+
+    /* Chnages in lists in container 4 */
+    .list1 {
+        width: 90vw;
+    }
+
+    .list2 {
+        width: 90vw;
+    }
+ /* Chnages in height container 5  */
+    .container5 {
+        height: auto;
+    }
+/* For displaying divs of container 5 in column */
+    .container5-divs {
+        flex-direction: column;
+    }
+ /* changes in Divs of  container5 properties */
+    .div5 {
+        margin: 5%;
+        height: 90vh;
+        
+    }
+
+
+/* For displaying divs of div6-a in column */
+    .div6-a {
+        flex-direction: column;
+    }
+    /* For displaying divs of div6-b in column */
+    .div6-b {
+        flex-direction: column;
+
+    }
+    .div6-text{
+        margin-left: 5%;
+        width: auto;
+    }
+/* Changes in imgage properties of our people */
+    .img6 {
+        height: 100%;
+        width: auto;
+    }
+/* Changes in padding of div6 in container 6 */
+    .div6 {
+        padding: 1.5rem;
+    }
+    /* Chnages in form container */
+    .form-container {
+        width: 90vw;
+        height: auto;
+    }
+   /* Chnages in form container div 1 */
+    .form-div1 {
+        width: 90vw;
+
+    }
+   /* Chnages in form container div 2*/
+    .form-div2 {
+        width: 90vw;
+
+    }
+
+
+
+}
+
+/* Chnages in properties for making responsive in mobile devices below 475px */
+@media only screen and (max-width: 475px) {
+    #top-head{
+        padding: 8px;
+    }
+    .nav{
+        min-height: 4vh;
+    }
+    /* For aligning boxes of container 2 one in a row */
+    .boxn {
+        width: 100%;
+    }
+    /* For hiding menu bar */
+    .menu-bar {
+        display: none;
+    }
+/* For Displaying navigation  bar icon */
+    .bar {
+
+        position: absolute;
+        right: 1rem;
+        top: 0.5rem;
+    }
+/* For adjusting text box of main page at center */
+    .text {
+        padding: 60px 30px 60px 30px;
+        font-size: small;
+
+        width: auto;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+    }
+/* For displaying Logo  position according to screen */
+    .logo {
+        position: absolute;
+        left: 1rem;
+    }
+ /* changes in Container 3 properties in mobile mode */
+    .container3 {
+
+
+        padding: 25px 60px 25px 60px;
+        font-size: medium;
+
+
+    }
+/* Changes in description div in mobile mode  */
+    .description {
+        padding: 2px;
+        width: 25vw;
+        display: block;
+        margin: auto;
+    }
+/* Changes in div of project list 1 for displaying div in column in mobile mode  */
+    .project-list1 {
+        flex-direction: column;
+        width: 100vw;
+
+    }
+/* Changes in div of project list 2 for displaying div in column in mobile mode  */
+    .project-list2 {
+        flex-direction: column;
+        width: 100vw;
+    }
+/* Chnages in image properties of project div(container 4) */
+    .img1 {
+        width: 100%;
+
+    }
+
+    .img2 {
+        width: 100%;
+
+
+
+    }
+
+    .project-img {
+        width: 90%;
+
+        margin-left: 5%;
+
+    }
+
+    .image2 {
+        float: none;
+    }
+  /* Chnages in lists in container 4 */
+    .list1 {
+        width: 90vw;
+    }
+
+    .list2 {
+        width: 90vw;
+    }
+ /* Chnages in height container 5  */
+    .container5 {
+        height: auto;
+    }
+/* For displaying divs of container 5 in column */
+    .container5-divs {
+        flex-direction: column;
+    }
+ /* changes in Divs of container5 properties */
+    .div5 {
+        margin: 5%;
+        height: 70vh;
+        width: 80vw;
+    }
+    .div6 {
+        padding: 1.5rem;
+        flex-direction: column;
+    }
+    .div6-text{
+        margin-left: 1%;
+    }
+
+
+
+/* Changes in button 2 roperties of main page */
+    .btn-2 {
+
+        margin-top: 10px;
+
+    }
+/* Changes in form container for displaying divs of form container in column */
+    .form-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+/* Changes is div 1 of form container */
+    .form-div1 {
+        width: 90vw;
+
+    }
+
+/* Changes label of form container to view in fill width */
+    .label input {
+        width: 90%;
+    }
+}
+
+/* Responsive code for hiding menu bar below resoltion 768px */
+@media only screen and (min-width: 768px) {
+
+
+    .bar {
+        display: none;
+       
+     
+    }
+
+}
